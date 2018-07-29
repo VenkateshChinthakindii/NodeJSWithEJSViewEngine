@@ -2,9 +2,9 @@
   "name": "samplenodejsappwithejsviewengine",
   "version": "1.0.0",
   "description": "sample node js app with EJS View Engine",
-  "main": "app.js",
-  "start":"node app.js",
+  "main": "app.js",  
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +12,8 @@
     "url": "https://github.com/VenkateshChinthakindii/NodeJSWithEJSViewEngine.git"
   },
   "author": "Venkatesh Chinthakindi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
